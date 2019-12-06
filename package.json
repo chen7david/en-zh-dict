@@ -4,7 +4,7 @@
   "description": "rudimentary translation table for small projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/chen7david/en-zh-dict#readme",
   "dependencies": {
+    "apollo-server": "^2.9.13",
     "dict-en-zh": "^0.2.1",
+    "graphql": "^14.5.8",
     "knex": "^0.20.3",
     "objection": "^2.0.3",
     "objection-db-errors": "^1.1.2",
